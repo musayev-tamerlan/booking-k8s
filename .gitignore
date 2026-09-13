@@ -1,0 +1,14 @@
+# Local build staging and tooling
+.sites-package-stage*/
+.sites-runtime/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+
+# Superseded local design experiments (not used by the current page)
+dist/flow.css
+dist/flow.js
+dist/lesson.css
+dist/lesson.js
